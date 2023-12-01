@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- flowbite -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="custom.css">
+
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- jquery -->
+
+  <title>KomposAble</title>
+</head>
+
+<body class="font-nunito">
+  <!-- navbar -->
+  <nav class="bg-gradient-to-r from-green-600 to-green-500 border-gray-200 fixed top-0 w-full opacity-90 px-5 z-[9999]">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <!-- <img src="Assets/logo.png" alt="Logo" class="w-14 m-0"> -->
+        <p class="self-center text-2xl tracking-wide whitespace-nowrap font-extrabold text-black">Kompos<span
+            class="text-white">Able</span></p>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border  border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+          <li>
+            <a href="#"
+              class="block py-2 px-3 text-white font-bold bg-blue-700 rounded md:bg-transparent md:hover:text-blue-700 md:p-0"
+              aria-current="page">Kompos</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Komposter</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Build
+              Komposter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- jumbotron -->
+  <section class="bg-gradient-to-r from-green-700 to-green-500">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+      <div class="flex flex-col justify-center align-middle p-10">
+        <h1
+          class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          Pupuk Kompos</h1>
+        <p class="text-lg font-normal text-gray-100 lg:text-xl">Mari mengenal lebih dalam mengenai pupuk kompos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Konten -->
+  <section class="max-w-7xl xl:mx-auto">
+    <!-- konten 1 -->
+    <div class="mx-14 my-24">
+      <h1 class="text-4xl font-bold mb-3">Apa itu Pupuk Kompos?</h1>
+      <p class="text-xl">Kompos adalah hasil penguraian parsial/tidak lengkap dari campuran bahan-bahan organik yang
+        dapat dipercepat secara artifisial oleh populasi berbagai macam mikroba dalam kondisi lingkungan yang hangat,
+        lembap, dan aerobik atau anaerobik (Crawford, 2003). Proses penguraian ini disebut dengan pengomposan.
+      </p>
+    </div>
+    <!-- konten 2 -->
+    <div class="bg-gray-300 py-10 ">
+      <div class="m-14">
+        <h1 class="text-4xl font-bold mb-3">Apa saja sampah yang bisa dibuat menjadi pupuk kompos?</h1>
+        <p class="text-xl">Pupuk kompos bisa dibuat menggunakan sampah-sampah organik, yaitu sampah yang murni terbuat
+          dari bahan-bahan alami dan mudah terurai oleh alam. Berikut contoh-contoh sampah organik.</p>
+        <div class="grid md:grid-cols-6 my-10 justify-items-center gap-8">
+          <div class="col-span-2 w-full">
+            <a href="#"
+              class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 shadow-neutral-400">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Sampah Sisa Makanan</h5>
+              <ul class="list-disc ms-5">
+                <li class="font-normal text-gray-700 ">Sisa sayuran dan buah-buahan</li>
+                <li class="font-normal text-gray-700 ">Sisa nasi, roti, dan biji-bijian lainnya</li>
+                <li class="font-normal text-gray-700 ">Kulit telur</li>
+              </ul>
+            </a>
+          </div>
+          <div class="col-span-2 w-full">
+            <a href="#"
+              class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 shadow-neutral-400">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Sampah Dedaunan</h5>
+              <ul class="list-disc ms-5">
+                <li class="font-normal text-gray-700 ">Daun Kering</li>
+                <li class="font-normal text-gray-700 ">Jerami</li>
+                <li class="font-normal text-gray-700 ">Rumput Kering</li>
+              </ul>
+            </a>
+          </div>
+          <div class="col-span-2 w-full">
+            <a href="#"
+              class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 shadow-neutral-400">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Sampah Dapur</h5>
+              <ul class="list-disc ms-5">
+                <li class="font-normal text-gray-700 ">Ampas kopi dan filter kopi</li>
+                <li class="font-normal text-gray-700 ">Kertas daun teh</li>
+                <li class="font-normal text-gray-700 ">Kulit kentang</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <p class="text-xl">Bagaimana cara mengubah sampah ini menjadi pupuk kompos? yaitu dengan <b>pengomposan</b></p>
+      </div>
+    </div>
+    <!-- konten 3 -->
+    <div class="mx-14 my-20">
+      <h1 class="text-4xl font-bold mb-3">Apa itu Pengomposan?</h1>
+      <p class="text-xl">Pengomposan adalah proses di mana bahan organik mengalami penguraian secara biologis, khususnya
+        oleh mikroba-mikroba yang memanfaatkan bahan organik sebagai sumber energi. Proses pengomposan dapat dipercepat
+        dengan mengatur dan mengontrol campuran bahan yang seimbang, pemberian air yang cukup, pengaturan aerasi, dan
+        penambahan aktivator pengomposan.
+      </p><br>
+      <p class="text-xl">Adapun alat yang digunakan untuk mengompos disebut dengan <b>komposter</b>.</p>
+      <div class="flex justify-center items-center my-8">
+        <a href="#"
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300">
+          Pelajari Lebih lanjut mengenai komposter
+          <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 14 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+
+
+  <!-- flowbite js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+
+  <!-- aos js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
